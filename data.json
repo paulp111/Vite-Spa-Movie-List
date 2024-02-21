@@ -1,12 +1,12 @@
 {
   "movies": [
     {
-      "id": "1",
-      "title": "Killers of the Flower Moon",
+      "title": "Killers of the Flower ",
       "director": "Martin Scorcese",
-      "runtime": 206,
-      "social": "@killersoftheflowermoon",
-      "img": "https://images.squarespace-cdn.com/content/v1/5bbcad0f2727be3646b9fee1/8b845be0-f31e-4ffc-a43b-ab96c189efde/F96BFCDE-37B8-442B-84B1-A0919CA0D9F7.jpeg"
+      "social": "@killersoftheflower",
+      "img": "https://images.squarespace-cdn.com/content/v1/5bbcad0f2727be3646b9fee1/8b845be0-f31e-4ffc-a43b-ab96c189efde/F96BFCDE-37B8-442B-84B1-A0919CA0D9F7.jpeg",
+      "runtime": "206",
+      "id": "1"
     },
     {
       "id": "2",
@@ -17,7 +17,7 @@
       "img": "https://image.tmdb.org/t/p/original/mbm8k3GFhXS0ROd9AD1gqYbIFbM.jpg"
     },
     {
-      "title": "Django Unchained1",
+      "title": "Django Unchained",
       "director": "Quentin Tarantino",
       "social": "@djangounchainedmovie",
       "img": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/yK0qrQhi3BbOXvTNOBWHgpcbckZ.jpg",
@@ -31,42 +31,6 @@
       "runtime": 151,
       "social": "@thedepartedfilm",
       "img": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/u4yQfbZTsM6YybFVeoc0yLsbcUF.jpg"
-    },
-    {
-      "id": "14ua07h",
-      "createdAt": 1708502418630,
-      "title": "New Movie",
-      "director": "New Director",
-      "runtime": 0,
-      "img": "",
-      "social": ""
-    },
-    {
-      "id": "gd3j4en",
-      "createdAt": 1708502421410,
-      "title": "New Movie",
-      "director": "New Director",
-      "runtime": 0,
-      "img": "",
-      "social": ""
-    },
-    {
-      "id": "qcswvw3",
-      "createdAt": 1708502421644,
-      "title": "New Movie",
-      "director": "New Director",
-      "runtime": 0,
-      "img": "",
-      "social": ""
-    },
-    {
-      "id": "jeqg7px",
-      "createdAt": 1708502421804,
-      "title": "New Movie",
-      "director": "New Director",
-      "runtime": 0,
-      "img": "",
-      "social": ""
     }
   ]
 }

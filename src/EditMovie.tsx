@@ -1,4 +1,4 @@
-import { Form, useLoaderData, redirect } from "react-router-dom";
+import { Form, useLoaderData, useNavigate, redirect } from "react-router-dom";
 import { Movie, updateMovie } from "./handleMovies";
 
 export async function action({
@@ -16,6 +16,7 @@ export async function action({
 
 export default function EditMovie() {
   const { movie } = useLoaderData() as { movie: Movie };
+  const navigate = useNavigate();
   return (
     <>
       <h1 id="edit-heading">Edit Movie</h1>
@@ -70,7 +71,14 @@ export default function EditMovie() {
           </label>
           <p>
             <button type="submit">Save</button>
-            <button type="button">Cancel</button>
+            <button
+              type="button"
+              onClick={() => {
+                navigate(-1);
+              }}
+            >
+              Cancel
+            </button>
           </p>
         </div>
       </Form>

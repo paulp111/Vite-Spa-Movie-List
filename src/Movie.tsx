@@ -3,6 +3,12 @@ import { getMovie } from "./handleMovies";
 
 export async function loader({ params }: { params: { id: string } }) {
   const movie = await getMovie(params.id);
+  if (!movie) {
+    throw new Response("movie not found", {
+      status: 404,
+      statusText: "Not Found",
+    });
+  }
   return { movie };
 }
 
